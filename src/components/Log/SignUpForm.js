@@ -47,7 +47,7 @@ const SignUpForm = () => {
 			<div className='password error'></div>
 			<br />
 
-			<label htmlFor='password-conf'>Email</label>
+			<label htmlFor='password-conf'>Confirmer le mot de passe </label>
 			<br />
 			<input
 				type='password'
@@ -58,14 +58,7 @@ const SignUpForm = () => {
 			/>
 			<div className='password-confirm error'></div>
 			<br />
-			<input type='checkbox' id='terms' />
-			<label htmlFor='terms'>
-				J'accepte les{' '}
-				<a herf='/' target='_blank' rel='noopener noreferrer'>
-					conditions générales
-				</a>
-			</label>
-			<div className='terms error'></div>
+
 			<br />
 			<input type='submit' value="Valider l'inscription" />
 		</form>
